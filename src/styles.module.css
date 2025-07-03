@@ -1,0 +1,46 @@
+.input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button {
+    background-color:var(--corPrincipalButton);  
+    color: var(--corTextoButton);              
+    border: 2px solid var(--corTextoButton);  
+    border-radius: 8px;         
+    padding: 12px 24px;         
+    font-size: 16px;            
+    cursor: pointer;            
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: var(--corButtonHover); 
+    transform: scale(1.03);   
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 28px;
+    color: var(--corTexto);
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: var(--corSubtexto);
+}
+
+
+
